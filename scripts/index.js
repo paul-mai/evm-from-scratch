@@ -24,8 +24,7 @@ function main() {
       return undefined;
     }
 
-    // Turn all big number keys into strings, preserving hex vs decimal
-    // This makes it easier to debug unit tests
+    // Turn all big number keys into strings, preserving hex vs decimal, this makes it easier to debug unit tests
     if (typeof value === 'string') {
       return parseYamlBigInt(value);
     }
