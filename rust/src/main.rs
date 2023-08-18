@@ -58,7 +58,7 @@ fn main() {
             }
         }
 
-        let mut matching = result.stack.len() == expected_stack.len();
+        let mut matching = (result.stack.len() == expected_stack.len());
         if matching {
             for i in 0..result.stack.len() {
                 if result.stack[i] != expected_stack[i] {
