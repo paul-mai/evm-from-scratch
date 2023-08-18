@@ -166,7 +166,7 @@ module.exports = function assembler(code) {
       const length = opcode - OPCODES.PUSH1 + 1;
 
       if (n < 0 || n >= 2n ** BigInt(8 * length)) {
-        throw new Error(`Value ${value} is not in range for PUSH${length}`);
+        throw new Error(`The value ${value} is not in range for PUSH${length}`);
       }
 
       for (let i = BigInt(length - 1); i >= 0; i--) {
