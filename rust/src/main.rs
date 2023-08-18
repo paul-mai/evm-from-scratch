@@ -11,7 +11,6 @@
  * to Rust, implement EVM in another programming language first.
  */
 
-use evm::evm;
 use primitive_types::U256;
 use serde::Deserialize;
 
