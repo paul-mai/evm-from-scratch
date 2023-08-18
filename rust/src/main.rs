@@ -1,9 +1,7 @@
 /**
  * EVM From Scratch
- * Rust template
  *
  * To work on EVM From Scratch in Rust:
- *
  * - Install Rust: https://www.rust-lang.org/tools/install
  * - Edit `rust/lib.rs`
  * - Run `cd rust && cargo run` to run the tests
