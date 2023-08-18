@@ -71,24 +71,24 @@ fn main() {
         matching = matching && result.success == test.expect.success;
 
         if !matching {
-            println!("Instructions: \n{}\n", test.code.asm);
+            println!("Instructions : \n{}\n", test.code.asm);
 
-            println!("Expected success: {:?}", test.expect.success);
-            println!("Expected stack: [");
+            println!("Expected success : {:?}", test.expect.success);
+            println!("Expected stack : [");
             for v in expected_stack {
                 println!("  {:#X},", v);
             }
             println!("]\n");
             
-            println!("Actual success: {:?}", result.success);
-            println!("Actual stack: [");
+            println!("Actual success : {:?}", result.success);
+            println!("Actual stack : [");
             for v in result.stack {
                 println!("  {:#X},", v);
             }
             println!("]\n");
 
-            println!("\nHint: {}\n", test.hint);
-            println!("Progress: {}/{}\n\n", index, total);
+            println!("\nHint : {}\n", test.hint);
+            println!("Progress : {}/{}\n\n", index, total);
             panic!("Test failed");
         }
         println!("PASS");
