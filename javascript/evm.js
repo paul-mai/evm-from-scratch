@@ -49,7 +49,7 @@ function tests() {
 
         if (expectedStackHex.join(",") !== actualStackHex.join(",")) {
           console.log("expected stack:", expectedStackHex);
-          console.log("  actual stack:", actualStackHex);
+          console.log("    actual stack:", actualStackHex);
           throw new Error("Stack mismatch");
         }
       } catch (e) {
