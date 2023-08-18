@@ -1,6 +1,5 @@
 /**
- * EVM From Scratch
- * TypeScript template
+ * EVM From Scratch + TypeScript template
  *
  * To work on EVM From Scratch in TypeScript:
  *
