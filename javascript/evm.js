@@ -7,8 +7,6 @@
  * - Install Node.js: https://nodejs.org/en/download/
  * - Edit `javascript/evm.js` (this file!), see TODO below
  * - Run `node javascript/evm.js` to run the tests
- *
- * If you prefer TypeScript, there's a sample TypeScript template in the `typescript` directory.
  */
 
 function evm(code) {
