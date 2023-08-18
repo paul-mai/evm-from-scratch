@@ -56,7 +56,7 @@ def test():
                 print("Test code:")
                 print(test['code']['asm'])
                 print("")
-                print("Hint:", test['hint'])
+                print("Hint :", test['hint'])
                 print("")
                 print(f"Progress: {i}/{len(data)}")
                 print("")
