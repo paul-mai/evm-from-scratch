@@ -15,7 +15,7 @@ function evm(code) {
 
   while (pc < code.length) {
     const opcode = code[pc];
-    pc++;
+    ++pc;
   }
 
   return { success: true, stack };
