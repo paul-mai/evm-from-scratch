@@ -9,7 +9,7 @@ Welcome to **EVM From Scratch**! It's a 100% practical course that will help you
 Clone the repo:
 
 ```sh
-git clone https://github.com/w1nt3r-eth/evm-from-scratch
+git clone https://github.com/paul-mai/evm-from-scratch
 ```
 
 This repository contains [`evm.json`](./evm.json) file with more than 100 test cases. Your goal is to create an implementation in any programming language of your choice that passes all tests.
