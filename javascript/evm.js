@@ -16,8 +16,6 @@ function evm(code) {
   while (pc < code.length) {
     const opcode = code[pc];
     pc++;
-
-    // TODO: implement the EVM here!
   }
 
   return { success: true, stack };
