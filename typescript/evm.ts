@@ -13,8 +13,8 @@
  */
 
 type Result = {
-  success: boolean,
-  stack: bigint[]
+  stack: bigint[],
+  success: boolean
 }
 
 export default function evm(code: Uint8Array): Result {
