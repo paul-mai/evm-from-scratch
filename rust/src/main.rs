@@ -33,8 +33,6 @@ struct Code {
 struct Expect {
     stack: Option<Vec<String>>,
     success: bool,
-    // #[serde(rename = "return")]
-    // ret: Option<String>,
 }
 
 
