@@ -89,7 +89,7 @@ fn main() {
             println!("Progress : {}/{}\n\n", index, total);
             panic!("Test failed");
         }
-        println!("PASS");
+        println!("Pass");
     }
     println!("Congratulations!");
 }
